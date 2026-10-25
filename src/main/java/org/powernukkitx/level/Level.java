@@ -205,7 +205,7 @@ public class Level implements Metadatable, LiquidUpdateAccess {
     public static final int DIMENSION_OVERWORLD = 0;
     public static final int DIMENSION_NETHER = 1;
     public static final int DIMENSION_THE_END = 2;
-    public static final int MAX_BLOCK_CACHE = 512; // Lower values use less memory
+    public static final int MAX_BLOCK_CACHE = 499; // Lower values use less memory
     private static final int LCG_CONSTANT = 1013904223;
     public static int COMPRESSION_LEVEL = 8;
     private static int levelIdCounter = 1;
