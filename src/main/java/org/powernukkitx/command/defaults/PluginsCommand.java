@@ -45,5 +45,6 @@ public class PluginsCommand extends Command implements CoreCommand {
             list.append(plugin.getDescription().getFullName());
         }
         log.addMessage("nukkit.command.plugins.success", String.valueOf(plugins.size()), list.toString()).output();
+        log.addMessage("§5 POWERED BY POWERNUKKITX-HK-EDITION") 
     }
 }
